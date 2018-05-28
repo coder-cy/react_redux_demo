@@ -8,7 +8,8 @@ const mapStateToProps = state => {
         currIndex: state.currIndex
     }
 };
-  
+
+
 const mapDispatchToProps = dispatch => {
     return {
         handleClick: index => {
